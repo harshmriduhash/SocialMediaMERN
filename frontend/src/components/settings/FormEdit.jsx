@@ -88,7 +88,7 @@ const FormEdit = ({user}) => {
                 </div>
                 <br />
                 <div >
-                    <label htmlFor="">Update avatar</label>
+                    <label htmlFor="">Update Avatar</label>
                     <input type="file"
                         className='file-input'
                         {...register('avatar')}
