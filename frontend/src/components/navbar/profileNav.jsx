@@ -17,7 +17,7 @@ const ProfileNav = props => {
                     <h2>{props.user?.username}</h2>
                     <CustomLink to={`/${props.user?.username}`}><FaUser  />profile</CustomLink>
                     <CustomLink to={"/settings"}><FaGear/>Settings</CustomLink>
-                    <button className='btnLink' onClick={props.loginOut}><FaRightToBracket />Sign out</button>
+                    <button className='btnLink' onClick={props.loginOut}><FaRightToBracket />Sign-out</button>
                 </div>
             )}
         </div>
