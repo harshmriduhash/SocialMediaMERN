@@ -15,10 +15,6 @@ This project aims to create a vibrant social media experience with the following
 
 To run this project locally, follow these steps:
 
-```bash
-# Clone the repository
-git clone https://github.com/AyoubChaiba/SociaMediaMern.git
-
 # Navigate to the project directory
 cd SociaMediaMern
 
