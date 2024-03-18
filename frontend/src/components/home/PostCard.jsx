@@ -130,7 +130,7 @@ const PostCard = ({ post, user }) => {
                             post.author.id !== user.id  && (
                                 user.following.filter(e => e.id === post.author.id).length === 0 ?
                                 <button key={post.author.id} onClick={FollowUser}>Follow</button> :
-                                <button key={post.author.id} onClick={UnFollowUser}>unFollow</button>
+                                <button key={post.author.id} onClick={UnFollowUser}>un-Follow</button>
                             )
                             }
                         </div>
